@@ -33,7 +33,7 @@ export default {
 	data() {
 		return {
 			swiperOption: {
-				autoplay: 1000, // 自动轮播
+				autoplay: 3000, // 自动轮播
 				mousewheelControl: true, // 允许鼠标滚轮控制
 				loop: true, // 循环轮播
 				pagination: '.swiper-pagination'
@@ -48,11 +48,11 @@ export default {
 </script>
 
 <style lang="less" scoped>
-@fontSize: 12px;
+@import '../../styles/common.less';
+
 // 使用样式穿透 使该条样式不受scoped影响
 // less和sass使用外层 /deep/ 第三方组件 {}
 // stylus使用 外层 >>> 第三方组件
-
 .wrapper /deep/ .swiper-pagination-bullet-active {
 	background: white;
 }
@@ -60,18 +60,18 @@ export default {
 // 由于swiper源码中轮播图的位置使用绝对定位
 // 那只需要使用bottom就可以控制其距离底部的位置
 .wrapper /deep/ .swiper-pagination-bullets {
-	bottom: 25rem / @fontSize;
+	bottom: 22rem / @fontSize;
 }
 
 .wrapper {
 	width: 100%;
 	height: 0;
-	padding-bottom: 50%;
+	padding-bottom: 35%;
 	overflow: hidden;
 
 	.swiper-img {
 		width: 100%;
-		height: 200rem / @fontSize;
+		height: 140rem / @fontSize;
 	}
 }
 </style>

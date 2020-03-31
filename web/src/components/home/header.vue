@@ -20,8 +20,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-@fontSize: 12px;
-@bgColor: #00bcd4;
+@import '../../styles/common.less';
 .header {
 	display: flex;
 	align-items: center;
