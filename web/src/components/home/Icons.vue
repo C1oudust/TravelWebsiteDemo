@@ -100,6 +100,7 @@ export default {
 	// overflow: hidden;
 }
 .icons {
+	margin-top: 6rem / @fontSize;
 	.icon {
 		position: relative;
 		float: left;
