@@ -2,7 +2,7 @@
 	<div>
 		<div class="title">热销推荐</div>
 		<ul>
-			<li class="item border-bottom" v-for="item of recommendList" :key="item.id">
+			<li class="item border-bottom" v-for="item of list" :key="item.id">
 				<img class="img" :src="item.imgUrl" alt />
 				<div class="info">
 					<p class="info-title">{{item.title}}</p>
@@ -18,29 +18,12 @@
 <script>
 export default {
 	name: 'HomeRecommend',
+	props: {
+		list: Array
+	},
 	data() {
 		return {
-			recommendList: [{
-				id: '0001',
-				imgUrl: 'http://img1.qunarzz.com/sight/p0/1708/2b/2b3b94de99c0a425a3.img.jpg_200x200_2458ffb2.jpg',
-				title: '八达岭长城',
-				desc: '不到长城非好汉',
-				price: '40'
-			},
-			{
-				id: '0002',
-				imgUrl: 'http://img1.qunarzz.com/sight/p0/1602/68/68aa05adb5315f9990.water.jpg_200x200_ce3d2658.jpg',
-				title: '北京海洋馆',
-				desc: '在帝都感受大海',
-				price: '540'
-			},
-			{
-				id: '0003',
-				imgUrl: 'http://img1.qunarzz.com/sight/p0/1505/f5/f5f45e1a83537bcb.water.jpg_200x200_444cc7e8.jpg',
-				title: '圆明园',
-				desc: '历史的沉淀',
-				price: '10'
-			}]
+
 		}
 	}
 }
