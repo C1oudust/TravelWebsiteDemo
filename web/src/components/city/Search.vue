@@ -15,6 +15,7 @@ export default {
 .search {
 	height: 25rem / @fontSize;
 	padding: 5rem / @fontSize;
+	padding-top: 0;
 	background: @bgColor;
 	.search-input {
 		box-sizing: border-box;
@@ -22,7 +23,7 @@ export default {
 		width: 100%;
 		line-height: 20rem / @fontSize;
 		text-align: center;
-		border-radius: 2rem / @fontSize;
+		border-radius: 3rem / @fontSize;
 		border: none;
 		color: #666;
 		outline: none;
