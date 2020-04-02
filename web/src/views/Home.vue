@@ -53,7 +53,7 @@ export default {
 				this.weekendList = data.weekendList;
 				this.recommendList = data.recommendList;
 			}
-			console.log(res);
+			// console.log(res);
 		}
 
 	}

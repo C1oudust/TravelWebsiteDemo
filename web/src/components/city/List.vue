@@ -12,61 +12,19 @@
 			<div class="area">
 				<div class="title border-top-bottom">热门城市</div>
 				<div class="city-list">
-					<div class="city-wrapper">
-						<div class="city">北京</div>
-					</div>
-					<div class="city-wrapper">
-						<div class="city">北京</div>
-					</div>
-					<div class="city-wrapper">
-						<div class="city">北京</div>
-					</div>
-					<div class="city-wrapper">
-						<div class="city">北京</div>
-					</div>
-					<div class="city-wrapper">
-						<div class="city">北京</div>
-					</div>
-					<div class="city-wrapper">
-						<div class="city">北京</div>
+					<div class="city-wrapper" v-for="city in hot" :key="city.name">
+						<div class="city">{{city.name}}</div>
 					</div>
 				</div>
 			</div>
-			<div class="area">
-				<div class="title border-top-bottom">A</div>
+			<div class="cities">
+				<div class="area" v-for="(items,key) of cities" :key="key">
+					<div class="title border-top-bottom">{{key}}</div>
 
-				<ul class="item-list">
-					<li class="item border-bottom">阿坝藏族羌族自治州</li>
-					<li class="item border-bottom">阿克苏地区</li>
-					<li class="item border-bottom">阿拉尔</li>
-					<li class="item border-bottom">阿拉善盟</li>
-					<li class="item border-bottom">阿勒泰</li>
-					<li class="item border-bottom">阿里</li>
-					<li class="item border-bottom">安康</li>
-					<li class="item border-bottom">安庆</li>
-					<li class="item border-bottom">安顺</li>
-					<li class="item border-bottom">安阳</li>
-					<li class="item border-bottom">鞍山</li>
-					<li class="item border-bottom">澳门</li>
-				</ul>
-			</div>
-			<div class="area">
-				<div class="title border-top-bottom">A</div>
-
-				<ul class="item-list">
-					<li class="item border-bottom">阿坝藏族羌族自治州</li>
-					<li class="item border-bottom">阿克苏地区</li>
-					<li class="item border-bottom">阿拉尔</li>
-					<li class="item border-bottom">阿拉善盟</li>
-					<li class="item border-bottom">阿勒泰</li>
-					<li class="item border-bottom">阿里</li>
-					<li class="item border-bottom">安康</li>
-					<li class="item border-bottom">安庆</li>
-					<li class="item border-bottom">安顺</li>
-					<li class="item border-bottom">安阳</li>
-					<li class="item border-bottom">鞍山</li>
-					<li class="item border-bottom">澳门</li>
-				</ul>
+					<ul class="item-list" v-for="item of items" :key="item.id">
+						<li class="item border-bottom">{{item.name}}</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -78,6 +36,10 @@ import BScroll from '@better-scroll/core';
 
 export default {
 	name: 'CityList',
+	props: {
+		cities: Object,
+		hot: Array
+	},
 	mounted() {
 		this.scroll = new BScroll(this.$refs.wrapper)
 	}
