@@ -9,11 +9,13 @@
 					</div>
 				</div>
 			</div>
-			<div class="area">
-				<div class="title border-top-bottom">热门城市</div>
-				<div class="city-list">
-					<div class="city-wrapper" v-for="city in hot" :key="city.name">
-						<div class="city">{{city.name}}</div>
+			<div>
+				<div class="area">
+					<div class="title border-top-bottom">热门城市</div>
+					<div class="city-list">
+						<div class="city-wrapper" v-for="city in hot" :key="city.id">
+							<div class="city">{{city.name}}</div>
+						</div>
 					</div>
 				</div>
 			</div>
