@@ -1,6 +1,5 @@
 module.exports = {
-  assetsDir: './static',
-  publicPath: './',
+  // publicPath: './static',
   devServer: {
     proxy: {
       '/api': {
@@ -8,7 +7,7 @@ module.exports = {
         changeOrigin: true,
         ws: true,
         pathRewrite: {
-          '^/api': '/static'
+          '^/api': './static'
         }
       }
     }

@@ -1,0 +1,115 @@
+{
+  "ret": true,
+  "data": {
+    "city": "北京",
+    "swiperList": [
+      {
+        "id": "0001",
+        "imgUrl": "https://img1.qunarzz.com/sight/p0/1907/cd/cdb4c750676d6d02a3.img.jpg_600x330_a42b6ad6.jpg"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "https://img1.qunarzz.com/sight/p0/1710/3b/3bd09821901efad5a3.img.jpg_600x330_754b1a0e.jpg"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1811/2f/2f9b29981c3c9f85a3.img.jpg_600x330_ee602103.jpg"
+      }
+    ],
+    "iconList": [
+      {
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+        "title": "景点门票"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/c1/6f15f887179fa002.png",
+        "title": "颐和园"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/4c/eac47dd8def8de02.png",
+        "title": "北京圆博园"
+      },
+      {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png",
+        "title": "玉渊潭公园"
+      },
+      {
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+        "title": "一日游"
+      },
+      {
+        "id": "0006",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/67/9a1678221b8e0e02.png",
+        "title": "古北水镇"
+      },
+      {
+        "id": "0007",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/a40ee278d67000f2a29d2e20f6a029b3.png",
+        "title": "香山公园"
+      },
+      {
+        "id": "0008",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/a40ee278d67000f2a29d2e20f6a029b3.png",
+        "title": "凤凰岭"
+      },
+      {
+        "id": "0009",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/bd/9f7b9b2b60c1502.png",
+        "title": "踏青赏花"
+      },
+      {
+        "id": "0010",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/47/c2b659e048b11602.png",
+        "title": "中国马镇"
+      }
+    ],
+    "recommendList": [
+      {
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1708/2b/2b3b94de99c0a425a3.img.jpg_200x200_2458ffb2.jpg",
+        "title": "八达岭长城",
+        "desc": "不到长城非好汉",
+        "price": "40"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1602/68/68aa05adb5315f9990.water.jpg_200x200_ce3d2658.jpg",
+        "title": "北京海洋馆",
+        "desc": "在帝都感受大海",
+        "price": "540"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1505/f5/f5f45e1a83537bcb.water.jpg_200x200_444cc7e8.jpg",
+        "title": "圆明园",
+        "desc": "历史的沉淀",
+        "price": "10"
+      }
+    ],
+    "weekendList": [
+      {
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1603/6d/2f67ae0659f41f.jpg_r_640x214_bf6cbd0b.jpg",
+        "title": "北京赏花好地方",
+        "desc": "乱花渐欲迷人眼，京城赏花大搜索"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg",
+        "title": "京城周末撒欢",
+        "desc": "在帝都过周末，不仅仅是城中游！"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1811/7e/476589267ebb41.jpg_r_640x214_bf599709.jpg",
+        "title": "京城溜娃必去",
+        "desc": "德智体美劳全面发展的亲子日，这些地方该去看看…"
+      }
+    ]
+  }
+}
