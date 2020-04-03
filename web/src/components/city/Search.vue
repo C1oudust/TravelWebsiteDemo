@@ -13,7 +13,7 @@ export default {
 <style lang="less" scoped>
 @import '../../styles/common.less';
 .search {
-	height: 25rem / @fontSize;
+	height: 24rem / @fontSize;
 	padding: 5rem / @fontSize;
 	padding-top: 0;
 	background: @bgColor;
