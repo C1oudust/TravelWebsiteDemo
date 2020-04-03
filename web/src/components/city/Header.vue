@@ -23,7 +23,7 @@ export default {
 	color: #fff;
 	background-color: @bgColor;
 	font-size: 13rem / @fontSize;
-
+	z-index: 2;
 	position: relative;
 	.back {
 		position: absolute;
