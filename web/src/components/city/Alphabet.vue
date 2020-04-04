@@ -54,9 +54,6 @@ export default {
 				this.timer = setTimeout(() => {
 					const touchY = e.touches[0].clientY - 76.91 * 2;
 					const index = Math.floor((touchY - this.startY) / 17.4)
-					console.log(index);
-					// console.log(startY + "   " + touchY);
-					// console.log(this.letters.length);
 					if (index >= 0 && index < 27) {
 						this.$emit('change', this.letters[index])
 					}
@@ -77,6 +74,7 @@ export default {
 @import '../../styles/common.less';
 
 .letter {
+	z-index: 1;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
