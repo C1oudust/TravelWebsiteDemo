@@ -79,7 +79,7 @@ export default {
 	flex-direction: column;
 	justify-content: center;
 	position: absolute;
-	right: 0;
+	right: 6rem / @fontSize;
 	top: 12rem;
 	bottom: 0;
 	width: 1.5rem;

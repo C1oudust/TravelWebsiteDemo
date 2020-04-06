@@ -74,7 +74,7 @@ export default {
 		}
 	},
 	mounted() {
-		this.scroll = new BScroll(this.$refs.wrapper)
+		this.scroll = new BScroll(this.$refs.wrapper, { click: true, tap: true })
 	}
 }
 </script>
@@ -115,7 +115,7 @@ export default {
 	.item-list {
 		list-style: none;
 		.item {
-			line-height: 25rem / @fontSize;
+			line-height: 30rem / @fontSize;
 			color: #666;
 			padding-left: 10rem / @fontSize;
 		}
