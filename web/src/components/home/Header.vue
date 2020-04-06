@@ -48,6 +48,7 @@ export default {
 		float: right;
 		text-align: center;
 		color: white;
+		font-size: 12rem / @fontSize;
 		.arrow {
 			font-size: 16rem / @fontSize;
 		}
