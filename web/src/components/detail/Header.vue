@@ -70,7 +70,7 @@ export default {
 	color: #fff;
 	background-color: @bgColor;
 	font-size: 13rem / @fontSize;
-	// z-index: 2;
+	z-index: 2;
 	position: fixed;
 	top: 0;
 	left: 0;
