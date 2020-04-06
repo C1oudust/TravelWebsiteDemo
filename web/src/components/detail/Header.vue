@@ -7,6 +7,7 @@
 			<router-link to="/">
 				<div class="iconfont back">&#xe658;</div>
 			</router-link>
+			<p>景点详情</p>
 		</div>
 	</div>
 </template>
