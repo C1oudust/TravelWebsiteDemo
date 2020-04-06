@@ -1,0 +1,38 @@
+{
+  "ret": true,
+  "data": {
+    "sightName": "八达岭长城（AAA景区）",
+    "bannerImg": "http://img1.qunarzz.com/sight/p0/1708/2b/2b3b94de99c0a425a3.img.jpg_600x330_b40971b4.jpg",
+    "galleryImgs": [
+      "http://img1.qunarzz.com/sight/p0/1708/2b/2b3b94de99c0a425a3.img.jpg_r_800x800_ae28174d.jpg",
+      "http://img1.qunarzz.com/sight/p0/1908/bd/bd70df50c681584a3.img.jpg_r_800x800_01ca9396.jpg"
+    ],
+    "categoryList": [
+      {
+        "title": "成人票",
+        "children": [
+          {
+            "title": "成人三人团票",
+            "children": [
+              {
+                "title": "成人三人团票-亲情套餐"
+              }
+            ]
+          },
+          {
+            "title": "成人五人团票"
+          }
+        ]
+      },
+      {
+        "title": "学生票"
+      },
+      {
+        "title": "儿童票"
+      },
+      {
+        "title": "特惠票"
+      }
+    ]
+  }
+}
